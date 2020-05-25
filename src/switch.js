@@ -172,6 +172,7 @@ render() {
           ]}
         >
           <Animated.View
+      useNativeDriver
             style={{
               backgroundColor: backgroundColorValue,
               height: switchHeight,
@@ -199,6 +200,7 @@ render() {
             </View>
           </Animated.View>
           <Animated.View
+useNativeDriver
             style={{
               backgroundColor: buttonBackgroundColorValue,
               borderRadius: buttonBorderRadius,
